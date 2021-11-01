@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	  <link rel="icon" href="assets/images/punakawan signature.png">
+
+    <title>ALL-IN-ONE_Design</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-digimedia-v3.css">
+    <link rel="stylesheet" href="assets/css/animated.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+	  
+	  <style>
+	  
+	  body
+  min-height: 100vh
+  display: flex
+  justify-content: center
+  align-items: center
+  font-family: 'Roboto', sans-serif
+  
+*
+  box-sizing: border-box
+
+.select
+  position: relative
+  min-width: 200px
+  
+  svg
+    position: absolute
+    right: 12px
+    top: calc(50% - 3px)
+    width: 10px
+    height: 6px
+    stroke-width: 2px
+    stroke: #9098A9
+    fill: none
+    stroke-linecap: round
+    stroke-linejoin: round
+    pointer-events: none
+  
+  select
+    -webkit-appearance: none
+    padding: 7px 40px 7px 12px
+    width: 100%
+    border: 1px solid #E8EAED
+    border-radius: 5px
+    background: white
+    box-shadow: 0 1px 3px -2px #9098A9
+    cursor: pointer
+    font-family: inherit
+    font-size: 16px
+    transition: all 150ms ease
+    &:required:invalid
+      color: #5A667F
+    
+    option
+      color: #223254
+      &[value=""][disabled]
+          display: none
+    
+    &:focus
+      outline: none
+      border-color: #0077FF
+      box-shadow: 0 0 0 2px rgba(#0077FF,.2)
+
+    &:hover + svg
+      stroke: #0077FF
+
+.sprites
+  position: absolute
+  width: 0
+  height: 0
+  pointer-events: none
+  user-select: none
+	  </style>
+	  
+	  
+  </head>
+
+<body>
+
+  <!-- Pre-header Starts -->
+  <div class="pre-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-sm-8 col-7">
+          <ul class="info">
+            <li><a href="mailto: products.satyo@gmail.com"><i class="fa fa-envelope"></i>products.satyo@gmail.com</a></li>
+            <li><a href="https://wa.me/085718008939"><i class="fa fa-phone"></i>0857-1800-8939</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Pre-header End -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <img src="assets/images/logo-v3.png" alt="">
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="index.html" class="active">Home</a></li>
+              <li class="scroll-to-section"><a href="#about">About</a></li>
+              <li class="scroll-to-section"><a href="#services">Services</a></li>
+              <li class="scroll-to-section"><a href="#portfolio">Projects</a></li>
+              <li class="scroll-to-section"><a href="#contact">Contact</a></li> 
+              <li class="scroll-to-section"><div class="border-first-button"><a href="#contact">Free Quote</a></div></li> 
+            </ul>        
+            <a class='menu-trigger'>
+                <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div id="contact" class="contact-us section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+            <h4>Pilih Pesanan mu <em>Sekarang!</em></h4>
+            <div class="line-dec"></div>
+          </div>
+        </div>
+        <div class="col-lg-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.25s">
+          <form id="contact" action="" method="post">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="contact-dec">
+                  <img src="assets/images/contact-dec-v3.png" alt="">
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <div id="map">
+                  <img src="assets/images/contact us.jpg" style="display:block; margin:auto;">
+                </div>
+              </div>
+              <div class="col-lg-7">
+                <div class="fill-form">
+                  <div class="row">
+                    <label class="pilihan">Apa Yang Ingin Kamu pesan ?</label>
+					  <select name="cars" id="pilihan" class="pilihan">
+						<option value="volvo">Design Grafis</option>
+						<option value="saab">Interior Design</option>
+						<option value="opel">Undangan Digital</option>
+						<option value="audi">Undangan Website</option>
+						<option value="volvo">Website</option>
+						<option value="saab">Design Logo</option>
+						<option value="opel">Video Editor</option>
+					  </select>
+                    <div class="col-lg-6">
+                      <fieldset>
+                        <input type="name" name="name" id="name" placeholder="Name" autocomplete="on" required>
+                      </fieldset>
+                      <fieldset>
+                        <input type="text" name="email" id="email"  placeholder="No Telpon" autocomplete="on" required>
+                      </fieldset>
+					  <fieldset>
+                        <input type="name" name="name" id="name" pattern="[^ @]*@[^ @]*" placeholder="Email" autocomplete="on" required>
+                      </fieldset>
+                      <fieldset>
+                        <input type="text" name="email" id="email"  placeholder="Company" required>
+                      </fieldset>
+                      <select name="cars" id="deadline" class="deadline">
+						<option value="">Deadline</option>
+						<option value="3 Hari">3 Hari</option>
+						<option value="5 Hari">5 Hari</option>
+						<option value="1 Minggu">1 Minggu</option>
+						<option value="2 Minggu">2 Minggu</option>
+						<option value="3 Minggu">3 Minggu</option>
+						<option value="1 Bulan">1 Bulan</option>
+					  </select>
+						<select name="cars" id="quantity" class="quantity">
+						<option value="">Jumlah Pesanan</option>
+						  <option value="1">1</option>
+						  <option value="2">2</option>
+						  <option value="3">3</option>
+						  <option value="4">4</option>
+						  <option value="5">5</option>
+						  <option value="6">6</option>
+						  <option value="7">7</option>
+						  <option value="8">8</option>
+						  <option value="9">9</option>
+						  <option value="10">10</option>
+					  </select> 
+                    </div>
+                    <div class="col-lg-6">
+                      <label class="pembayaran">Metode Pembayaran</label>
+						<select name="cars" id="metode" class="metode">
+						  <option value="Bank Transfer">Bank Transfer</option>
+						  <option value="ovo">OVO</option>
+						  <option value="Dana">Dana</option>
+					  </select>
+						<br>
+						<br>
+						<table class="tabel-bank" style="width: 100%">
+						<tr>
+							<td align="left"><strong>BANK TRANSFER :</strong></td>
+							<td></td>
+							<td></td>
+						</tr>
+						</table>
+					<table class="tabel-bank" style="width: 100%">
+						<tr align="left">
+							<td>1.</td>
+							<td>BCA</td>
+							<td>: 1260769771</td>
+						</tr>
+						<tr align="left">
+							<td>2.</td>
+							<td>BRI</td>
+							<td>: 767401010175536</td>
+						</tr>
+						<tr align="left">
+							<td>3.</td>
+							<td>BNI</td>
+							<td>: 767401010175536</td>
+						</tr>
+						<tr align="left">
+							<td>4.</td>
+							<td>BTPN</td>
+							<td>: 767401010175536</td>
+						</tr>
+					</table>
+						<table>
+							<tr>
+								<td><strong>OVO</strong></td>
+								<td></td>
+								<td></td>
+							</tr>
+						</table>
+					<table class="table-ovo" style="width: 100%">
+						<tr align="left">
+							<td>1. </td>
+							<td>OVO</td>
+							<td>: 0857-1800-8939</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td><strong>DANA</strong></td>
+							<td></td>
+							<td></td>
+						</tr>
+					</table>
+					<table class="table-ovo" style="width: 100%">
+						<p>
+						<tr align="left">
+							<td>1. </td>
+							<td>DANA</td>
+							<td>: 0857-1800-8939</td>
+						</tr>
+						</p>
+					</table>
+						</div>
+                    <div class="col-lg-12">
+						<fieldset>
+                        <textarea name="message" type="text" class="form-control" id="message" placeholder="Pesan" required=""></textarea>  
+                      </fieldset>
+                      <fieldset>
+                        <button type="submit" id="form-submit" class="main-button ">Pesan Sekarang</button>
+                      </fieldset>
+						<div class="termcondition" align="left">
+						<br>
+						<a href="">Term and Condition <em>*</em></a>
+						<br>
+						<a>(Pesanan akan di proses setelah pembayaran di terima. Pastikan kontak tertera dengan jelas dan pihak admin dapat menghubungi dengan baik. Terima Kasih !)</a>
+						</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright © 2021 Punakawan Design
+          <br>ALL-IN-ONE DESIGN</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Scripts -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/imagesloaded.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+</body>
+</html>
